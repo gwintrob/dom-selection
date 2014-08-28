@@ -6,7 +6,7 @@
     ],
 
     "dependencies" : {
-        "Cecchi/component-naive-bayes": "*",
+        "Cecchi/bayes": "*",
         "Cecchi/dom-selector-fitter" : "*",
         "Cecchi/dom-utils": "*"
     }
