@@ -1,0 +1,13 @@
+{
+    "name": "dom-selection",
+
+    "scripts": [
+        "index.js"
+    ],
+
+    "dependencies" : {
+        "Cecchi/component-naive-bayes": "*",
+        "Cecchi/selector-fitter" : "*",
+        "Cecchi/dom-utils": "*"
+    }
+}
