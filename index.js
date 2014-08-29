@@ -26,7 +26,7 @@ function tokenize(element) {
  * @param   {HTMLElement|Array|NodeList|String}    includes    One or more HTMLElements or a CSS selector
  */
 module.exports = function DOMSelection() {
-    var classifier = require('naive-bayes'),
+    var classifier = require('bayes'),
         includes   = [],
         excludes   = [];
 
