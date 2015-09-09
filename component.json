@@ -8,6 +8,6 @@
     "dependencies" : {
         "Cecchi/bayes": "*",
         "Cecchi/dom-selector-fitter" : "*",
-        "Cecchi/dom-utils": "*"
+        "gwintrob/dom-utils": "*"
     }
 }
