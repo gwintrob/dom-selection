@@ -30,8 +30,8 @@ module.exports = function DOMSelection() {
         includes   = [],
         excludes   = [];
 
-    this.include = function(elements) {
-        elements = DOMUtils.toElementArray(elements);
+    this.include = function(elements, isXpath) {
+        elements = DOMUtils.toElementArray(elements, isXpath);
 
         elements.forEach(function(el) {
             var index = excludes.indexOf(el);
@@ -43,7 +43,7 @@ module.exports = function DOMSelection() {
 
             // Ensure uniqueness
             if(includes.indexOf(el) === -1) {
-                includes.push(el)
+                includes.push(el);
             }
         });
 
